@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>payments
+</title>
+<style>
+.column{
+  float: left;
+  width: 40.40%;
+  padding:5px;
+}
+.row::after{
+  content: "";
+  clear:both;
+  display: table;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+</style>
+</head>
+<body bgcolor="silver">
+<div class="hero-text">
+	
+		<center><form name=details method=get action="home.html">
+<br><br>
+<br>
+<fieldset>
+    <div class="column">
+<img src="img/mastercard.png" style="width: 50%"><br>
+<img src="img/visa.svg" style="width: 50%">
+</div>
+
+  <legend>PAYMENT</legend>
+		<pre>
+			<h2 style="color: black">
+ACCOUNT NUMBER<br><input type="number" placeholder="account number" required="" size="16">
+MONTH&YEAR<br><input type="number" name="mm" placeholder="mm" size="2" max="12" required="">
+CVV<br><input type="number" name=cvv placeholder="cvv only 3 digits"  required="">
+<input type="submit" value=payment name=payment>
+<input type="reset" value=clear name=clear>
+</h2>
+</pre>
+</fieldset>
+</form>
+</center>
+
+</body>
+</html>

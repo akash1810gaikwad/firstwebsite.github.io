@@ -1,0 +1,8 @@
+select{
+	background-color: limegreen;
+	font-size: 15px;
+	 color: white;
+}
+option{
+	text-transform: uppercase;
+}
